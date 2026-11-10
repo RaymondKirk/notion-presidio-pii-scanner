@@ -1,0 +1,22 @@
+{
+  "page_id": "demo-page-001",
+  "blocks": [
+    {
+      "id": "demo-block-001",
+      "type": "paragraph",
+      "paragraph": {"rich_text": [{"plain_text": "Contact Jane at jane.doe@example.com."}]}
+    },
+    {
+      "id": "demo-block-002",
+      "type": "toggle",
+      "toggle": {"rich_text": [{"plain_text": "Follow-up"}]},
+      "children": [
+        {
+          "id": "demo-block-003",
+          "type": "paragraph",
+          "paragraph": {"rich_text": [{"plain_text": "The demo phone number is 212-555-0100."}]}
+        }
+      ]
+    }
+  ]
+}
